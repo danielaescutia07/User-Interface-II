@@ -48,7 +48,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    
 }
 
 /* General Styles */
@@ -58,7 +58,7 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    background-color: #eaf4f4;
+    background-color: #edf8f8;
     color: #4f4f4f;
 }
 
@@ -66,31 +66,71 @@ body {
 header .myname {
     display: flex;
     justify-content: center;
-    font-size: 6rem;
+    font-size: 7rem;
 }
 header nav {
     display: flex;
     justify-content: center;
     font-size: 3.5rem;
 }
+.links a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
 
 /* Introduction */
 .intro h2 {
     display: flex;
     justify-content: center;
+    font-size: 5rem;
 }
 .intro p {
     display: flex;
-    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 10%;
 }
 
 
 /* Middle Image */
-#image-container {
-    background: url("images/flowers1.jpg");
+.big-image img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5% 0;
 }
 
 /* Bottom Images and Text */
-
+ .images div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .project-section img{
+     width: 18%;
+     height: 60vh;
+ }
+ .project-section p {
+     text-align: center;
+     padding: 3%;
+     margin: 0 1%;
+ }
+ 
 
 /* Footer */
+footer a {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    padding: 5%;
+    font-size: 4rem;
+    text-decoration: none;
+    color: #4f4f4f;
+}
+.bottom {
+    background: #c7d0e7;
+    margin-top: 5%;
+}
