@@ -99,10 +99,10 @@ header nav {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 5% 0;
+    margin: 1% 0;
 }
 
 /* Bottom Images and Text */
@@ -112,8 +112,8 @@ header nav {
      align-items: center;
  }
  .project-section img{
-     width: 18%;
-     height: 60vh;
+     width: 16%;
+     height: 40vh;
  }
  .project-section p {
      text-align: center;
