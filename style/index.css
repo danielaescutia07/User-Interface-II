@@ -136,3 +136,58 @@ footer a {
     background: #c7d0e7;
     margin-top: 5%;
 }
+
+
+/* Media Queries */
+@media (max-width: 800px){
+    .big-image img {
+        padding: 1%;
+    }
+    .images div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 2%;
+    }
+    .project-section img {
+        width: 23%;
+    }
+   .project-section p {
+       font-size: 4rem;
+       text-align: center;
+   }
+}
+
+@media (max-width: 500px){
+    header .myname {
+        font-size: 5rem;
+    }
+    header nav {
+        flex-flow: column;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .intro {
+        flex-flow: column;
+        text-align: center;
+    }
+    .intro h2 {
+        font-size: 4rem;
+    }
+    .intro p {
+        font-size: 1.7rem;
+    }
+    .big-image img {
+        padding: 3.7%;
+        height: 30vh;
+    }
+    .project-section img {
+        width: 50%;
+        padding: 2%;
+    }
+    .project-section p, footer a {
+        font-size: 2.5rem;
+    }
+}
