@@ -1,1 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    
+}
+
+/* General Styles */
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #edf8f8;
+    color: #4f4f4f;
+}
+
+/* Header */
+header .myname {
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+.links a {
+    text-decoration: none;
+    color: #4f4f4f;
+    margin: 0 .5%;
+}
+
+/* Introduction */
+.intro h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    margin-top: 2%;
+}
+.intro p {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 10%;
+}
+
+
+/* Middle Image */
+.big-image img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1% 0;
+}
+
+/* Bottom Images and Text */
+ .images div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .project-section img{
+     width: 16%;
+     height: 40vh;
+ }
+ .project-section p {
+     text-align: center;
+     padding: 1%;
+     margin: 0 .5%;
+     font-size: 2rem;
+ }
+ 
+
+/* Footer */
+footer a {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-size: 4rem;
+    text-decoration: none;
+    color: #4f4f4f;
+}
+.bottom {
+    background: #c7d0e7;
+    margin-top: 5%;
+}
